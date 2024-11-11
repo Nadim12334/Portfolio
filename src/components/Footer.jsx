@@ -46,7 +46,7 @@ const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white">
               <FaTwitter />
             </a>
-            <a href="www.linkedin.com/in/nadimpatel" target="_blank" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/nadimpatel/" target="_blank" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
             <a href="https://github.com/Nadim12334" target="_blank" className="text-gray-400 hover:text-white">

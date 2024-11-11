@@ -20,7 +20,7 @@ const About = () => {
               seamless and efficient user experiences.
             </p>
             <div className="space-y-4">
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   HTML & CSS
                 </label>
@@ -31,7 +31,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                  JavaScript
                 </label>
@@ -42,7 +42,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                  JSon, jQuery, Bootstrap, Tailwind CSS
                 </label>
@@ -53,7 +53,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   React JS
                 </label>
@@ -64,7 +64,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                 Typescript
                 </label>
@@ -76,7 +76,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <label htmlFor="htmlandcss" className="w-2/12">
                Next.js
                 </label>
