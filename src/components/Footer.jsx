@@ -9,26 +9,11 @@ const Footer = () => {
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Nadim</h3>
             <p className="text-gray-400">
-              Front-End Developer, specializing in web and
-              software development.
+              Front-End Developer, specializing in website development 
             </p>
           </div>
           <div className="flex-1 w-full">
-            <form className="flex items-center justify-center">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600 
-                focus:outline-none focus:border-green-400"
-              />
-              <button
-                type="submit"
-                className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 
-                py-2 rounded-r-lg"
-              >
-                Subscribe
-              </button>
-            </form>
+           
           </div>
         </div>
 

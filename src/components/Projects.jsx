@@ -10,21 +10,25 @@ const projects = [
     name: "Duck Hunt",
     technologies: "",
      image:duckhunt,
-    github: "https://github.com/Nadim12334",
+    github: "https://github.com/Nadim12334/Duckhunt-Game",
+    visit: "/Duckhunt/duckhunt.html"
   },
   {
     id: 2,
     name: "E-commerce",
     technologies: "",
     image: ecommerce,
-    github: "https://github.com/Nadim12334",
+    github: "https://github.com/Nadim12334/E-Commerce-Website",
+    visit:"/E-commerce/productscartui.html"
   },
   {
     id: 3,
     name: "Shootgame",
     technologies: "",
     image: shootgame,
-    github: "https://github.com/Nadim12334",
+    github: "https://github.com/Nadim12334/Shootgame",
+    visit: "/shootgame/shootgame.html"
+    
   },
 ];
 
@@ -44,6 +48,11 @@ const Projects = () => {
               <a href={project.github} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
+
+             <a href={project.visit} className="inline-block bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 m-2 rounded-full" target="_blank" 
+              rel="noopener noreferrer">Visit</a>
+
             </div>
           ))}
         </div>

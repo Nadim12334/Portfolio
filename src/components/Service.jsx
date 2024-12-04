@@ -3,7 +3,7 @@ import React from "react";
 const services = [
   {
     id: 1,
-    title: "Web Design",
+    title: "Website Redesigning, Website Development",
     description: "Creating visually appealing and user-friendly web designs.",
   },
   {
